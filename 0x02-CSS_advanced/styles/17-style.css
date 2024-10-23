@@ -117,7 +117,7 @@ a:active {
 
 .section-footer {
     padding: var(--section-footer-padding);
-    margin: 0 var(--section-footer-align);
+    margin: var(--section-footer-align);
 }
 
 .footer {
