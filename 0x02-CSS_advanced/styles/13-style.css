@@ -41,22 +41,27 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+/* Target only anchor elements containing a hyperlink */
 a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:visited {
+/* Visited state: italicize text */
+a[href]:visited {
     font-style: italic;
 }
 
-a:hover {
+/* Hover state: underline text */
+a[href]:hover {
     text-decoration: underline;
 }
 
-a:active {
+/* Active state: set background color */
+a[href]:active {
     background-color: var(--color-light-grey);
 }
+
 
 .visually-hidden {
     display: none;
