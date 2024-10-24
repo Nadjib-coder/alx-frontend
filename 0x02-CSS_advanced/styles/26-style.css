@@ -267,7 +267,7 @@ ul.row {
     height: 10rem;
 }
 
-.card-quote cite {
+.card-quote > cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
