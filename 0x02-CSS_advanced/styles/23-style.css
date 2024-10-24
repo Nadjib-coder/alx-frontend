@@ -213,5 +213,5 @@ ul.row {
 }
 
 .social-link svg {
-    fill: currentColor;
+    fill: var(--text-color);
 }
